@@ -1,0 +1,3 @@
+#!/bin/bash
+current directory = "PWD"
+echo "current directory"
