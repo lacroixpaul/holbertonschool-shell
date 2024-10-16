@@ -1,0 +1,2 @@
+#!/bin/bash
+printenv BINARY | echo "ibase=2; $BINARY" | bc
