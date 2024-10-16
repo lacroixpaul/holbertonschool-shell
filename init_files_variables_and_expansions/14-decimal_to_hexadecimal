@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv DECIMAL | echo $(( 16#$DECIMAL )) 
+printenv DECIMAL | printf "%x\n" $DECIMAL 
