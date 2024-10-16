@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv BINARY | echo $BINARY
+printenv BINARY | echo $(( 2#$BINARY ))
